@@ -1,0 +1,6 @@
+framework module Pods_TestTask_Beverage {
+  umbrella header "Pods-TestTask_Beverage-umbrella.h"
+
+  export *
+  module * { export * }
+}

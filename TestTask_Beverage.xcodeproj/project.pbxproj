@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4760559A4C5327313952CF91 /* Pods_TestTask_Beverage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B179C46E6EAE51F56CB38ED2 /* Pods_TestTask_Beverage.framework */; };
 		D08F606628956A1600A98372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F606528956A1600A98372 /* AppDelegate.swift */; };
 		D08F606828956A1600A98372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F606728956A1600A98372 /* SceneDelegate.swift */; };
-		D08F606A28956A1600A98372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F606928956A1600A98372 /* ViewController.swift */; };
-		D08F606D28956A1600A98372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08F606B28956A1600A98372 /* Main.storyboard */; };
 		D08F606F28956A1700A98372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08F606E28956A1700A98372 /* Assets.xcassets */; };
 		D08F607228956A1700A98372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08F607028956A1700A98372 /* LaunchScreen.storyboard */; };
+		D08F607B28956A5B00A98372 /* CoctailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F607A28956A5B00A98372 /* CoctailsViewController.swift */; };
+		D08F607D28956A6300A98372 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F607C28956A6300A98372 /* Interactor.swift */; };
+		D08F607F28956A6A00A98372 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F607E28956A6A00A98372 /* Presenter.swift */; };
+		D08F608128956A7100A98372 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F608028956A7100A98372 /* Entity.swift */; };
+		D08F608328956A7700A98372 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F608228956A7700A98372 /* Router.swift */; };
+		D08F608528956F4100A98372 /* BaseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F608428956F4100A98372 /* BaseNode.swift */; };
+		D08F608A2895862F00A98372 /* BaseCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F60892895862F00A98372 /* BaseCellNode.swift */; };
+		D08F608F2895908E00A98372 /* SearchCoctailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F608E2895908E00A98372 /* SearchCoctailsCell.swift */; };
+		D0E4ECF228990CF400FDC38A /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E4ECF128990CF400FDC38A /* PresentationViewController.swift */; };
+		D0EFEFC128968BE500167EF8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFEFC028968BE500167EF8 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00AEFBD8E63ABB48910D2E5D /* Pods-TestTask_Beverage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTask_Beverage.debug.xcconfig"; path = "Target Support Files/Pods-TestTask_Beverage/Pods-TestTask_Beverage.debug.xcconfig"; sourceTree = "<group>"; };
+		2E956C7CBD7479782734013B /* Pods-TestTask_Beverage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTask_Beverage.release.xcconfig"; path = "Target Support Files/Pods-TestTask_Beverage/Pods-TestTask_Beverage.release.xcconfig"; sourceTree = "<group>"; };
+		B179C46E6EAE51F56CB38ED2 /* Pods_TestTask_Beverage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTask_Beverage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08F606228956A1600A98372 /* TestTask_Beverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTask_Beverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08F606528956A1600A98372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D08F606728956A1600A98372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D08F606928956A1600A98372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D08F606C28956A1600A98372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D08F606E28956A1700A98372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D08F607128956A1700A98372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D08F607328956A1700A98372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08F607A28956A5B00A98372 /* CoctailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailsViewController.swift; sourceTree = "<group>"; };
+		D08F607C28956A6300A98372 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		D08F607E28956A6A00A98372 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		D08F608028956A7100A98372 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		D08F608228956A7700A98372 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		D08F608428956F4100A98372 /* BaseNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNode.swift; sourceTree = "<group>"; };
+		D08F60892895862F00A98372 /* BaseCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCellNode.swift; sourceTree = "<group>"; };
+		D08F608E2895908E00A98372 /* SearchCoctailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoctailsCell.swift; sourceTree = "<group>"; };
+		D0E4ECF128990CF400FDC38A /* PresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
+		D0EFEFC028968BE500167EF8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4760559A4C5327313952CF91 /* Pods_TestTask_Beverage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11A9C6A91DF50D014B4BAAE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00AEFBD8E63ABB48910D2E5D /* Pods-TestTask_Beverage.debug.xcconfig */,
+				2E956C7CBD7479782734013B /* Pods-TestTask_Beverage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		850FB0003F737451757E5132 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B179C46E6EAE51F56CB38ED2 /* Pods_TestTask_Beverage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D08F605928956A1600A98372 = {
 			isa = PBXGroup;
 			children = (
 				D08F606428956A1600A98372 /* TestTask_Beverage */,
 				D08F606328956A1600A98372 /* Products */,
+				11A9C6A91DF50D014B4BAAE7 /* Pods */,
+				850FB0003F737451757E5132 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +96,63 @@
 		D08F606428956A1600A98372 /* TestTask_Beverage */ = {
 			isa = PBXGroup;
 			children = (
-				D08F606528956A1600A98372 /* AppDelegate.swift */,
-				D08F606728956A1600A98372 /* SceneDelegate.swift */,
-				D08F606928956A1600A98372 /* ViewController.swift */,
-				D08F606B28956A1600A98372 /* Main.storyboard */,
+				D08F608728956FA300A98372 /* Core */,
+				D0E4ECF028990CB500FDC38A /* View */,
+				D08F607C28956A6300A98372 /* Interactor.swift */,
+				D08F607E28956A6A00A98372 /* Presenter.swift */,
+				D08F608028956A7100A98372 /* Entity.swift */,
+				D08F608228956A7700A98372 /* Router.swift */,
+				D08F6088289585C700A98372 /* Nodes */,
+				D0EFEFBF28968BBD00167EF8 /* Helper */,
 				D08F606E28956A1700A98372 /* Assets.xcassets */,
 				D08F607028956A1700A98372 /* LaunchScreen.storyboard */,
 				D08F607328956A1700A98372 /* Info.plist */,
 			);
 			path = TestTask_Beverage;
+			sourceTree = "<group>";
+		};
+		D08F608728956FA300A98372 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D08F606528956A1600A98372 /* AppDelegate.swift */,
+				D08F606728956A1600A98372 /* SceneDelegate.swift */,
+				D08F608428956F4100A98372 /* BaseNode.swift */,
+				D08F60892895862F00A98372 /* BaseCellNode.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D08F6088289585C700A98372 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				D08F608D2895907400A98372 /* CellNodes */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		D08F608D2895907400A98372 /* CellNodes */ = {
+			isa = PBXGroup;
+			children = (
+				D08F608E2895908E00A98372 /* SearchCoctailsCell.swift */,
+			);
+			path = CellNodes;
+			sourceTree = "<group>";
+		};
+		D0E4ECF028990CB500FDC38A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D08F607A28956A5B00A98372 /* CoctailsViewController.swift */,
+				D0E4ECF128990CF400FDC38A /* PresentationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0EFEFBF28968BBD00167EF8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D0EFEFC028968BE500167EF8 /* Constants.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D08F607628956A1700A98372 /* Build configuration list for PBXNativeTarget "TestTask_Beverage" */;
 			buildPhases = (
+				0555EAF0F85E1CBA039EB42B /* [CP] Check Pods Manifest.lock */,
 				D08F605E28956A1600A98372 /* Sources */,
 				D08F605F28956A1600A98372 /* Frameworks */,
 				D08F606028956A1600A98372 /* Resources */,
+				70F2EFA6F86C145445E7EE67 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +217,69 @@
 			files = (
 				D08F607228956A1700A98372 /* LaunchScreen.storyboard in Resources */,
 				D08F606F28956A1700A98372 /* Assets.xcassets in Resources */,
-				D08F606D28956A1600A98372 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0555EAF0F85E1CBA039EB42B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestTask_Beverage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70F2EFA6F86C145445E7EE67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestTask_Beverage/Pods-TestTask_Beverage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestTask_Beverage/Pods-TestTask_Beverage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestTask_Beverage/Pods-TestTask_Beverage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D08F605E28956A1600A98372 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08F606A28956A1600A98372 /* ViewController.swift in Sources */,
+				D08F608328956A7700A98372 /* Router.swift in Sources */,
+				D0EFEFC128968BE500167EF8 /* Constants.swift in Sources */,
+				D08F607F28956A6A00A98372 /* Presenter.swift in Sources */,
+				D08F608528956F4100A98372 /* BaseNode.swift in Sources */,
+				D0E4ECF228990CF400FDC38A /* PresentationViewController.swift in Sources */,
+				D08F608A2895862F00A98372 /* BaseCellNode.swift in Sources */,
+				D08F607B28956A5B00A98372 /* CoctailsViewController.swift in Sources */,
+				D08F608128956A7100A98372 /* Entity.swift in Sources */,
+				D08F607D28956A6300A98372 /* Interactor.swift in Sources */,
 				D08F606628956A1600A98372 /* AppDelegate.swift in Sources */,
+				D08F608F2895908E00A98372 /* SearchCoctailsCell.swift in Sources */,
 				D08F606828956A1600A98372 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +287,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D08F606B28956A1600A98372 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D08F606C28956A1600A98372 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D08F607028956A1700A98372 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +414,7 @@
 		};
 		D08F607728956A1700A98372 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00AEFBD8E63ABB48910D2E5D /* Pods-TestTask_Beverage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +425,7 @@
 				INFOPLIST_FILE = TestTask_Beverage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +443,7 @@
 		};
 		D08F607828956A1700A98372 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E956C7CBD7479782734013B /* Pods-TestTask_Beverage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +454,7 @@
 				INFOPLIST_FILE = TestTask_Beverage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
